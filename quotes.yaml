@@ -13,6 +13,13 @@
   text: >
     Цитата Бобука
 
+- author: bobuk
+  release: "345"
+  date: "01.04.2009"
+  time: "12:34"
+  text: >
+    Цитата Бобука
+
 # - author: umputun
 #   release: "123"
 #   date: "01.04.2015"
