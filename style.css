@@ -1,0 +1,37 @@
+* { margin: 0; padding: 0;}
+
+#quote {
+    width: 640px;
+    border: 1px solid #eee;
+    margin: 20px auto 10px auto;
+    font-size: 1.4em;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05),0 8px 8px -5px rgba(0, 0, 0, 0.2)
+}
+
+#quote>div, #quote header {
+    padding: 10px;
+}
+
+#quote header {
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.author {
+    float: left;
+}
+
+.release {
+    float: right;
+}
+
+.more {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.more span {
+    color: blue;
+    border-bottom: 1px dashed blue;
+    cursor: pointer;
+}
