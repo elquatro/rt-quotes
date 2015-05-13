@@ -1,29 +1,19 @@
 - author: umputun
-  release: "234"
-  date: "01.04.2006"
-  time: "12:34"
-  link: http://www.radio-t.com/p/2015/05/09/podcast-443/
+  release:
+    id: 0
+    date: 27.08.2006
+    link: http://www.radio-t.com/p/2006/08/27/podcast-0/
+  time: 00:00:00
   text: >
-    Цитата Умпутуна
-
-- author: bobuk
-  release: "234"
-  date: "01.04.2006"
-  time: "12:34"
-  text: >
-    Цитата Бобука
-
-- author: bobuk
-  release: "345"
-  date: "01.04.2009"
-  time: "12:34"
-  text: >
-    Цитата Бобука
+    Сегодня мы представляем вашему драгоценному вниманию пилотный выпуск нового
+    подкаста пока условно названый t-radio
 
 # - author: umputun
-#   release: "123"
-#   date: "01.04.2015"
-#   time: "12:34"
-#   link: http://www.radio-t.com/p/2015/05/09/podcast-443/
+#   release:
+#     id: 0
+#     date: 27.08.2006
+#     link: http://www.radio-t.com/p/2006/08/27/podcast-0/
+#   time: 00:00:00
 #   text: >
-#     Срамота ходячая
+#     Сегодня мы представляем вашему драгоценному вниманию пилотный выпуск нового
+#     подкаста пока условно названый t-radio

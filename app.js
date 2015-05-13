@@ -1,12 +1,22 @@
-var LENGTH = 3;
+var LENGTH = 1;
 
 var app = angular.module('radiotQuotesApp', []);
 
-app.controller('Quote', function($scope, $http) {
+app.controller('Quote', function($scope, $http, $timeout) {
     $scope.random = function() {
+        if ($scope.moreDisabled === true) return;
+
         var quoteId = Math.floor(Math.random() * LENGTH),
-            url = 'json/' + zfill(quoteId, 5) + '.json';
+            url = 'json/' + zfill(quoteId, 5) + '.json',
+            loading = $timeout(function() {
+                $scope.quote = undefined;
+            }, 100);
+
+        $scope.moreDisabled = true;
+
         $http.get(url).success(function(data, status, headers, config) {
+            $scope.moreDisabled = false;
+            $timeout.cancel(loading);
             $scope.quote = data;
         });
     };
