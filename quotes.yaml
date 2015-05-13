@@ -8,6 +8,27 @@
     Сегодня мы представляем вашему драгоценному вниманию пилотный выпуск нового
     подкаста пока условно названый t-radio
 
+
+- author: umputun
+  release:
+    id: 1
+    date: 05.09.2006
+    link: http://www.radio-t.com/p/2006/09/05/podcast-1/
+  time: 00:00:15
+  text: >
+    Доброго, даже не знаю чего
+
+
+- author: umputun
+  release:
+    id: 1
+    date: 05.09.2006
+    link: http://www.radio-t.com/p/2006/09/05/podcast-1/
+  time: 00:18:33
+  text: >
+    Слышал ли ты о такой операционной системе, которая называется ReactOS?
+
+
 # - author: umputun
 #   release:
 #     id: 0
