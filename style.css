@@ -87,3 +87,19 @@
 a[href] {
     color: #53AAFF;
 }
+
+@media (max-width: 640px) {
+    #quote, #loading {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .author, .release {
+        display: block;
+        float: none;
+    }
+    .release {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+}
