@@ -1,15 +1,22 @@
 * { margin: 0; padding: 0;}
 
-#quote {
+#quote, #loading {
     width: 640px;
     border: 1px solid #eee;
     margin: 20px auto 10px auto;
     font-size: 1.4em;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05),0 8px 8px -5px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 }
 
 #quote>div, #quote header {
     padding: 10px;
+}
+
+#loading>div {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 #quote header {
@@ -19,10 +26,29 @@
 
 .author {
     float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.author.bobuk {
+    background-image: url('img/bobuk.png');
+}
+
+.author.umputun {
+    background-image: url('img/umputun.png');
+}
+
+.text {
+    line-height: 1.4em;
 }
 
 .release {
     float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .more {
@@ -31,7 +57,28 @@
 }
 
 .more span {
-    color: blue;
-    border-bottom: 1px dashed blue;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
     cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.more span:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-color: #999;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.more span.disabled {
+    cursor: default;
+    border: 1px solid #eee;
+    color: #eee;
+    box-shadow: none;
+}
+
+a[href] {
+    color: #53AAFF;
 }
