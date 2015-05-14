@@ -1,9 +1,9 @@
-var LENGTH = 1;
+var LENGTH = 3;
 
 var app = angular.module('radiotQuotesApp', []);
 
 app.controller('Quote', function($scope, $http, $timeout) {
-    $scope.random = function() {
+    $scope.getRandomQuote = function() {
         if ($scope.moreDisabled === true) return;
 
         var quoteId = Math.floor(Math.random() * LENGTH),
