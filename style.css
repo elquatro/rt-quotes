@@ -44,6 +44,10 @@
     background-image: url('img/umputun.png');
 }
 
+.author.gray {
+    background-image: url('img/gray.png');
+}
+
 .text {
     line-height: 1.4em;
     padding: 20px;
