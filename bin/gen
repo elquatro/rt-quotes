@@ -6,6 +6,8 @@ import json
 import shutil
 import os
 import fileinput
+import time
+import re
 
 JSON_FOLDER = 'json'
 YAML_FILE = 'quotes.yaml'
@@ -27,13 +29,25 @@ for i, q in enumerate(data):
     with open(filename, 'w') as f:
         f.write(json.dumps(q, ensure_ascii=False).encode('utf-8'))
 
-print "Generating app.js..."
+print "Fix app.js..."
 
 for linenum, line in enumerate(fileinput.FileInput("app.js", inplace=1)):
     if linenum == 0:
         print "var LENGTH = %d;" % len(data)
     else:
         print line.rstrip()
+
+
+print "Fix index.html..."
+
+for linenum, line in enumerate(fileinput.FileInput("index.html", inplace=1)):
+    pattern = re.compile(r"(app\.js\?ts=)\d+")
+    replace = "\g<1>%d" % int(time.time())
+    if "app.js?ts=" in line:
+        print re.sub(pattern, replace, line).rstrip()
+    else:
+        print line.rstrip()
+
 
 print "------------------"
 print "TOTAL QUOTES: %d" % len(data)
