@@ -25,7 +25,7 @@ print "Generating JSON..."
 for i, q in enumerate(data):
     filename = "%s/%s.json" % (JSON_FOLDER, str(i).zfill(5))
     with open(filename, 'w') as f:
-        json.dump(q, f)
+        f.write(json.dumps(q, ensure_ascii=False).encode('utf-8'))
 
 print "Generating app.js..."
 
