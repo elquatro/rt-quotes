@@ -4,7 +4,7 @@
 Категорически приветствуются пулл реквесты.
 
 
-Цитаты добавляются в файл quotes.yaml:
+Цитаты добавляются в файл [quotes.yaml](https://github.com/elquatro/rt-quotes/blob/master/quotes.yaml):
 ```yaml
 - author: umputun
   release: &r0
