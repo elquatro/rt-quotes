@@ -1,5 +1,5 @@
 - author: umputun
-  release:
+  release: &r0
     id: 0
     date: 27.08.2006
     link: http://www.radio-t.com/p/2006/08/27/podcast-0/
@@ -10,7 +10,7 @@
 
 
 - author: umputun
-  release:
+  release: &r1
     id: 1
     date: 05.09.2006
     link: http://www.radio-t.com/p/2006/09/05/podcast-1/
@@ -20,13 +20,37 @@
 
 
 - author: umputun
-  release:
-    id: 1
-    date: 05.09.2006
-    link: http://www.radio-t.com/p/2006/09/05/podcast-1/
+  release: *r1
   time: 00:18:33
   text: >
     Слышал ли ты о такой операционной системе, которая называется ReactOS?
+
+
+- author: bobuk
+  release: &r3
+    id: 3
+    date: 24.09.2006
+    link: http://www.radio-t.com/p/2006/09/24/podcast-3/
+  time: 00:01:20
+  text: >
+    Мне тоже кажется 30-40 минут — это та цифра, которую любой гик в состоянии
+    скачать, потому что 12-15 мегабайт — это даже на диал апе вообщем не так
+    страшно
+
+
+- author: bobuk
+  release: *r3
+  time: 00:09:20
+  text: >
+    Господи, что мы будем скрывать, да я работаю в компании Яндекс и у нас есть
+    своя бесплатная почта
+
+
+- author: bobuk
+  release: *r3
+  time: 00:26:56
+  text: >
+    Превед — это уже боян
 
 
 # - author: umputun
