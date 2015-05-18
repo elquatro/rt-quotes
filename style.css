@@ -110,9 +110,13 @@ footer {
         display: block;
         float: none;
     }
+    .author {
+        font-size: 1.4em;
+    }
     .release {
         padding-top: 10px;
         padding-bottom: 0px;
+        text-align: center;
     }
 
     footer { display: none; }
