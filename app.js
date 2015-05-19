@@ -13,9 +13,7 @@ app.controller('Quote', function($scope, $http, $timeout) {
 
         for (quoteId=Math.floor(Math.random() * LENGTH);
              currentQuoteId!=undefined && quoteId==currentQuoteId && LENGTH>1;
-             quoteId=Math.floor(Math.random() * LENGTH)) {
-            console.log(quoteId);
-        }
+             quoteId=Math.floor(Math.random() * LENGTH));
 
         var url = 'json/' + zfill(quoteId, 5) + '.json',
             loading = $timeout(function() {
