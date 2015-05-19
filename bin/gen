@@ -41,10 +41,13 @@ for linenum, line in enumerate(fileinput.FileInput("app.js", inplace=1)):
 print "Fix index.html..."
 
 for linenum, line in enumerate(fileinput.FileInput("index.html", inplace=1)):
-    pattern = re.compile(r"(app\.js\?ts=)\d+")
+    pattern_app = re.compile(r"(app\.js\?ts=)\d+")
+    pattern_style = re.compile(r"(style\.css\?ts=)\d+")
     replace = "\g<1>%d" % int(time.time())
     if "app.js?ts=" in line:
-        print re.sub(pattern, replace, line).rstrip()
+        print re.sub(pattern_app, replace, line).rstrip()
+    elif "style.css?ts=" in line:
+        print re.sub(pattern_style, replace, line).rstrip()
     else:
         print line.rstrip()
 
