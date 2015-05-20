@@ -124,6 +124,37 @@
     ссылочку на то, что якобы выйдет Nokia 870, да?
 
 
+- author: bobuk
+  release: &r9
+    id: 9
+    date: 04.11.2006
+    link: http://www.radio-t.com/p/2006/11/04/podcast-9/
+  time: 00:11:00
+  text: >
+    Есть люди, которым нравится Motorola, а есть люди, которым нравится Nokia.
+
+
+- author: umputun
+  release: *r9
+  time: 00:12:53
+  text: >
+    Я рад за все остальные страны.
+
+
+- author: umputun
+  release: *r9
+  time: 00:12:53
+  text: >
+    Я рад за все остальные страны.
+
+
+- author: umputun
+  release: *r9
+  time: 00:22:15
+  text: >
+    Google Docs? Это что за зверь?
+
+
 # - author: umputun
 #   release:
 #     id: 0
