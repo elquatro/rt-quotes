@@ -143,13 +143,6 @@
 
 - author: umputun
   release: *r9
-  time: 00:12:53
-  text: >
-    Я рад за все остальные страны.
-
-
-- author: umputun
-  release: *r9
   time: 00:22:15
   text: >
     Google Docs? Это что за зверь?
