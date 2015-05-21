@@ -148,8 +148,18 @@
     Google Docs? Это что за зверь?
 
 
+- author: umputun
+  release: &r11
+    id: 11
+    date: 20.11.2006
+    link: http://www.radio-t.com/p/2006/11/20/podcast-11/
+  time: 00:37:30
+  text: >
+    Основная функция у мобильников — это говорить, а не все остальное.
+
+
 # - author: umputun
-#   release:
+#   release: &r0
 #     id: 0
 #     date: 27.08.2006
 #     link: http://www.radio-t.com/p/2006/08/27/podcast-0/
