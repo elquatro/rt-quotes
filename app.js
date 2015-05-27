@@ -5,6 +5,7 @@ var app = angular.module('radiotQuotesApp', []);
 app.controller('Quote', function($scope, $http, $timeout) {
 
     var currentQuoteId = undefined;
+    var ts = new Date().getTime();
 
     $scope.getRandomQuote = function() {
         if ($scope.moreDisabled === true) return;
@@ -15,7 +16,7 @@ app.controller('Quote', function($scope, $http, $timeout) {
              currentQuoteId!=undefined && quoteId==currentQuoteId && LENGTH>1;
              quoteId=Math.floor(Math.random() * LENGTH));
 
-        var url = 'json/' + zfill(quoteId, 5) + '.json',
+        var url = 'json/' + zfill(quoteId, 5) + '.json?ts=' + ts,
             loading = $timeout(function() {
                 $scope.quote = undefined;
             }, 100);
