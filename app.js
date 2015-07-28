@@ -1,8 +1,8 @@
 var LENGTH = 38;
 
-var app = angular.module('radiotQuotesApp', []);
-
-app.controller('Quote', function($scope, $http, $timeout) {
+angular
+    .module('radiotQuotesApp', [])
+    .controller('Quote', function($scope, $http, $timeout) {
 
     var currentQuoteId = undefined;
     var ts = new Date().getTime();
