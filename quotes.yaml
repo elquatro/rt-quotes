@@ -451,3 +451,28 @@
   time: 00:14:02
   text: >
     Падающая гномовская панель меня просто убила.
+
+
+- author: bobuk
+  release: &r29
+    id: 29
+    date: 01.04.2007
+    link: http://www.radio-t.com/p/2007/04/01/podcast-29/
+  time: 00:02:56
+  text: >
+    Спонсором сегодняшнего и первого спонсируемого выпуска Радио-Т является
+    компания Microsoft.
+
+
+- author: umputun
+  release: *r29
+  time: 00:03:33
+  text: >
+    Наступает супер-время.
+
+
+- author: bobuk
+  release: *r29
+  time: 00:36:22
+  text: >
+    Пол Яндекса крутиться на MySQL.
