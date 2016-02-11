@@ -1,4 +1,4 @@
-var LENGTH = 51;
+var LENGTH = 62;
 
 angular
     .module('radiotQuotesApp', [])
