@@ -1,19 +1,12 @@
 * { margin: 0; padding: 0;}
 
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
-}
-
 #quote, #loading {
     width: 640px;
     margin: 20px auto;
     font-size: 1.4em;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-}
-
-#quote header {
-    padding: 10px;
+    display: none;
 }
 
 #loading>div {
@@ -23,8 +16,10 @@
 }
 
 #quote header {
+    padding: 10px;
     overflow: hidden;
     background-color: #eee;
+    font-family: Helvetica, sans-serif;
 }
 
 .author {
