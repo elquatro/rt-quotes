@@ -44,7 +44,7 @@ var LENGTH = 66;
         loadingTimer = setTimeout(function() {
             loading.show();
             quote.hide();
-        }, 100);
+        }, 400);
 
         var url = "/json/" + zfill(quoteId, 5) + ".json";
         $.getJSON(url)
