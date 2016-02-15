@@ -49,7 +49,7 @@ var LENGTH = 66;
         var url = "/json/" + zfill(quoteId, 5) + ".json";
         $.getJSON(url)
             .done(function(data) {
-                currentQuoteId = data.release.id;
+                currentQuoteId = quoteId;
                 renderQuote(data);
             })
             .fail(function() {
