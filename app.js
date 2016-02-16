@@ -1,4 +1,4 @@
-var LENGTH = 66;
+var LENGTH = 68;
 
 (function() {
     $.ajaxSetup({
