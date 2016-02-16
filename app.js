@@ -46,7 +46,7 @@ var LENGTH = 68;
             quote.hide();
         }, 400);
 
-        var url = "/json/" + zfill(quoteId, 5) + ".json";
+        var url = "json/" + zfill(quoteId, 5) + ".json";
         $.getJSON(url)
             .done(function(data) {
                 currentQuoteId = quoteId;
