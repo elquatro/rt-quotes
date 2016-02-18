@@ -29,25 +29,20 @@ for i, q in enumerate(data):
     with open(filename, 'w') as f:
         f.write(json.dumps(q, ensure_ascii=False).encode('utf-8'))
 
-print "Fix app.js..."
-
-for linenum, line in enumerate(fileinput.FileInput("app.js", inplace=1)):
-    if linenum == 0:
-        print "var LENGTH = %d;" % len(data)
-    else:
-        print line.rstrip()
-
-
 print "Fix index.html..."
 
 for linenum, line in enumerate(fileinput.FileInput("index.html", inplace=1)):
     pattern_app = re.compile(r"(app\.js\?ts=)\d+")
     pattern_style = re.compile(r"(style\.css\?ts=)\d+")
+    pattern_length = re.compile(r"(var\sLENGTH\s=\s)\d+")
     replace = "\g<1>%d" % int(time.time())
+    replace_length = "\g<1>%d" % len(data)
     if "app.js?ts=" in line:
         print re.sub(pattern_app, replace, line).rstrip()
     elif "style.css?ts=" in line:
         print re.sub(pattern_style, replace, line).rstrip()
+    elif "var LENGTH =" in line:
+        print re.sub(pattern_length, replace_length, line).rstrip()
     else:
         print line.rstrip()
 
