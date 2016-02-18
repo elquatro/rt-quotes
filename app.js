@@ -65,13 +65,26 @@ function nextQuote() {
 function renderQuote(data) {
     var author = quote.find('.author');
     var release = quote.find('.release');
-    author.text(data.author).prop("class", data.author + ' author');
-    release.find('a').prop('href', data.release.link).text("№ " + data.release.id);
-    release.find('.date').text(data.release.date);
-    release.find('.time').text(data.time);
-    quote.find('.text').text(data.text);
+
+    author
+        .text(data.author)
+        .prop("class", data.author + ' author');
+
+    release.find('a')
+        .prop('href', data.release.link)
+        .text("№ " + data.release.id);
+
+    release.find('.date')
+        .text(data.release.date);
+
+    release.find('.time')
+        .text(data.time);
+
+    quote.find('.text')
+        .text(data.text);
 
     clearTimeout(loadingTimer);
+
     loading.hide();
     quote.show();
 }
