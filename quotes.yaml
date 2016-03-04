@@ -2,7 +2,7 @@
   release: &r0
     id: 0
     date: 27.08.2006
-    link: http://www.radio-t.com/p/2006/08/27/podcast-0/
+    link: https://radio-t.com/p/2006/08/27/podcast-0/
   time: 00:00:00
   text: >
     Сегодня мы представляем вашему драгоценному вниманию пилотный выпуск нового
@@ -13,7 +13,7 @@
   release: &r1
     id: 1
     date: 05.09.2006
-    link: http://www.radio-t.com/p/2006/09/05/podcast-1/
+    link: https://radio-t.com/p/2006/09/05/podcast-1/
   time: 00:00:15
   text: >
     Доброго, даже не знаю чего.
@@ -30,7 +30,7 @@
   release: &r3
     id: 3
     date: 24.09.2006
-    link: http://www.radio-t.com/p/2006/09/24/podcast-3/
+    link: https://radio-t.com/p/2006/09/24/podcast-3/
   time: 00:01:20
   text: >
     Мне тоже кажется 30-40 минут — это та цифра, которую любой гик в состоянии
@@ -57,7 +57,7 @@
   release: &r5
     id: 5
     date: 08.10.2006
-    link: http://www.radio-t.com/p/2006/10/08/podcast-5/
+    link: https://radio-t.com/p/2006/10/08/podcast-5/
   time: 00:15:10
   text: >
     Apple подготовила нам некоторый такой гэджет под названием Micro Mac
@@ -70,7 +70,7 @@
   release: &r6
     id: 6
     date: 15.10.2006
-    link: http://www.radio-t.com/p/2006/10/15/podcast-6/
+    link: https://radio-t.com/p/2006/10/15/podcast-6/
   time: 00:26:33
   text: >
     У нас, кстати, в подкасте в Радио-Т уже за 700 слушателей перевалило.
@@ -91,7 +91,7 @@
   release: &r7
     id: 7
     date: 22.10.2006
-    link: http://www.radio-t.com/p/2006/10/22/podcast-7/
+    link: https://radio-t.com/p/2006/10/22/podcast-7/
   time: 00:01:43
   text: >
     IE7 вроде бы вышел в релиз.
@@ -101,7 +101,7 @@
   release: &r8
     id: 8
     date: 29.10.2006
-    link: http://www.radio-t.com/p/2006/10/29/podcast-8/
+    link: https://radio-t.com/p/2006/10/29/podcast-8/
   time: 00:07:28
   text: >
     Я так понимаю, ты сейчас говоришь по поводу слухов об iPhone.
@@ -128,7 +128,7 @@
   release: &r9
     id: 9
     date: 04.11.2006
-    link: http://www.radio-t.com/p/2006/11/04/podcast-9/
+    link: https://radio-t.com/p/2006/11/04/podcast-9/
   time: 00:11:00
   text: >
     Есть люди, которым нравится Motorola, а есть люди, которым нравится Nokia.
@@ -152,7 +152,7 @@
   release: &r11
     id: 11
     date: 20.11.2006
-    link: http://www.radio-t.com/p/2006/11/20/podcast-11/
+    link: https://radio-t.com/p/2006/11/20/podcast-11/
   time: 00:37:30
   text: >
     Основная функция у мобильников — это говорить, а не все остальное.
@@ -162,7 +162,7 @@
   release: &r12
     id: 12
     date: 26.11.2006
-    link: http://www.radio-t.com/p/2006/11/26/podcast-12/
+    link: https://radio-t.com/p/2006/11/26/podcast-12/
   time: 00:16:10
   text: >
     Характерная черта у всех Никонов, которая кажется унаследовала Сони в этой
@@ -187,7 +187,7 @@
   release: &r13
     id: 13
     date: 05.12.2006
-    link: http://www.radio-t.com/p/2006/12/05/podcast-13/
+    link: https://radio-t.com/p/2006/12/05/podcast-13/
   time: 00:10:58
   text: >
     Ох, чтение в ванной — это вообще очень больная проблема, потому что я не
@@ -208,7 +208,7 @@
   release: &r18
     id: 18
     date: 15.01.2007
-    link: http://www.radio-t.com/p/2007/01/15/podcast-18/
+    link: https://radio-t.com/p/2007/01/15/podcast-18/
   time: 00:00:17
   text: >
     К сожалению прошлый подкаст мне пришлось пропустить надеюсь что больше
@@ -238,7 +238,7 @@
   release: &r20
     id: 20
     date: 13.02.2007
-    link: http://www.radio-t.com/p/2007/02/13/podcast-22/
+    link: https://radio-t.com/p/2007/02/13/podcast-22/
   time: 00:05:39
   text: >
     Уж не знаю как у меня от порнухи на Apple переход получился, но вот такой
@@ -314,7 +314,7 @@
   release: &r22
     id: 22
     date: 13.02.2007
-    link: http://www.radio-t.com/p/2007/02/13/podcast-22/
+    link: https://radio-t.com/p/2007/02/13/podcast-22/
   time: 00:08:05
   text: >
     Я сегодня едучи на такси, объяснял таксисту почему машина у него плохо едет
@@ -333,7 +333,7 @@
   release: &r23
     id: 23
     date: 18.02.2007
-    link: http://www.radio-t.com/p/2007/02/18/podcast-23/
+    link: https://radio-t.com/p/2007/02/18/podcast-23/
   time: 00:07:31
   text: >
     Вредные какие китайцы, а?!
@@ -369,7 +369,7 @@
   release: &r24
     id: 24
     date: 28.02.2007
-    link: http://www.radio-t.com/p/2007/02/28/podcast-24/
+    link: https://radio-t.com/p/2007/02/28/podcast-24/
   time: 00:01:59
   text: >
     Быть или нет Netscape?
@@ -408,7 +408,7 @@
   release: &r26
     id: 26
     date: 11.03.2007
-    link: http://www.radio-t.com/p/2007/03/11/podcast-26/
+    link: https://radio-t.com/p/2007/03/11/podcast-26/
   time: 00:00:55
   text: >
     Тот представитель компании Microsoft, с которым последний раз я общался
@@ -439,7 +439,7 @@
   release: &r27
     id: 27
     date: 19.03.2007
-    link: http://www.radio-t.com/p/2007/03/19/podcast-27/
+    link: https://radio-t.com/p/2007/03/19/podcast-27/
   time: 00:07:42
   text: >
     Если Шумахера посадить на Запорожец может быть он тоже на нем будет хорошо
@@ -457,7 +457,7 @@
   release: &r29
     id: 29
     date: 01.04.2007
-    link: http://www.radio-t.com/p/2007/04/01/podcast-29/
+    link: https://radio-t.com/p/2007/04/01/podcast-29/
   time: 00:02:56
   text: >
     Спонсором сегодняшнего и первого спонсируемого выпуска Радио-Т является
@@ -482,7 +482,7 @@
   release: &r30
     id: 30
     date: 06.04.2007
-    link: http://radio-t.com/p/2007/04/08/podcast-30/
+    link: https://radio-t.com/p/2007/04/08/podcast-30/
   time: 00:04:33
   text: >
     Я считаю, что ICQ — это отличный сервис, практически идеальный сервис,
@@ -561,7 +561,7 @@
   release: &r31
     id: 31
     date: 16.04.2007
-    link: http://radio-t.com/p/2007/04/16/podcast-31/
+    link: https://radio-t.com/p/2007/04/16/podcast-31/
   time: 00:09:03
   text: >
     iPhone — это ключевой для компании продукт. Я очень боюсь за компанию Apple
@@ -580,7 +580,7 @@
   release: &r32
     id: 32
     date: 23.04.2007
-    link: http://radio-t.com/p/2007/04/23/podcast-32/
+    link: https://radio-t.com/p/2007/04/23/podcast-32/
   time: 00:01:27
   text: >
     У меня теперь есть паяльник. У меня был недавно день рождения и мне подарили
@@ -592,7 +592,7 @@
   release: &r34
     id: 34
     date: 07.05.2007
-    link: http://radio-t.com/p/2007/05/07/podcast-34/
+    link: https://radio-t.com/p/2007/05/07/podcast-34/
   time: 00:00:29
   text: >
     Сегодня выпуск у нас чуть-чуть необычный, потому что мы пытаемся
@@ -622,7 +622,7 @@
   release: &r483
     id: 483
     date: 13.02.2016
-    link: http://radio-t.com/p/2016/02/13/podcast-483/
+    link: https://radio-t.com/p/2016/02/13/podcast-483/
   time: 01:20:24
   text: >
     Небо и земля, тоесть как лэптоп, который Эпловый и я не знаю какой-нибудь
@@ -634,3 +634,17 @@
   time: 00:56:00
   text: >
     Женщина не бегала за динозавром. Она не могла провайдить еду.
+
+
+- author: umputun
+  release: &r36
+    id: 36
+    date: 21.05.2007
+    link: https://radio-t.com/p/2007/05/21/podcast-36/
+  time: 00:01:47
+  text: >
+    Все эти разговоры и вопросы когда мы с тобой не вышли, откуда и куда мы
+    пропали. Спровоцированный этой всей массой вопросов, поднял целый сайт,
+    который совершенно ожидаемо называется radio-t.com, на котором будем мы
+    с тобой выкладывать всякие новости, всякие сообщения, линки на вышедшие
+    подкасты, линки на будущие подкасты и прочее прочее прочее.
