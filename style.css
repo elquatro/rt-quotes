@@ -57,6 +57,7 @@
 .text {
     line-height: 1.4em;
     padding: 20px;
+    font-family: 'PT Serif';
 }
 
 .release {
@@ -78,6 +79,7 @@
     padding: 10px 30px;
     border-radius: 3px;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'PT Serif';
 }
 
 .more span:hover {
