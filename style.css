@@ -108,19 +108,27 @@ footer {
     bottom: 10px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 655px) {
+
+    body {
+        padding: 20px 15px;
+    }
+
     #quote, #loading {
-        width: 90%;
+        width: 100%;
         font-size: 1em;
+        margin: 0 auto 20px auto;
     }
 
     .author, .release {
         display: block;
         float: none;
     }
+
     .author {
         font-size: 1.4em;
     }
+
     .release {
         padding-top: 10px;
         padding-bottom: 0px;
