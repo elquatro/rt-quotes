@@ -1,5 +1,5 @@
 # Цитаты подкаста Радио-Т
-[elquatro.github.io/rt-quotes/](http://elquatro.github.io/rt-quotes/)
+[elquatro.github.io/rt-quotes/](https://elquatro.github.io/rt-quotes/)
 
 Категорически приветствуются пулл реквесты.
 
