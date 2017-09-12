@@ -1,4 +1,4 @@
-# Цитаты подкаста Радио-Т
+# Цитаты подкаста Радио-Т [![Build Status](https://travis-ci.org/elquatro/rt-quotes.svg?branch=master)](https://travis-ci.org/elquatro/rt-quotes)
 [elquatro.github.io/rt-quotes/](https://elquatro.github.io/rt-quotes/)
 
 Категорически приветствуются пулл реквесты.
