@@ -42,6 +42,6 @@ for linenum, line in enumerate(fileinput.FileInput(HTML_FILE, inplace=1)):
         print line.rstrip()
 
 
-print "------------------"
+print "-------------------"
 print "TOTAL QUOTES: %d" % len(data)
 print "Done."
