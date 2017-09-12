@@ -6,10 +6,12 @@ python:
 install:
   - make
 
+script: pytest
+
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist2
+  local_dir: dist
   on:
     branch: refactor
