@@ -8,6 +8,7 @@ deps:
 
 travis_install:
 	pip install -r requirements
+	mkdir -p dist/json
 	cp -r src/img dist/img
 	cp -r src/vendor/* dist/
 	cp src/app.js dist/
