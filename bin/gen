@@ -4,18 +4,13 @@
 import yaml
 import json
 import shutil
-import os
 import fileinput
 import time
 import re
 
-JSON_FOLDER = 'json'
-YAML_FILE = 'quotes.yaml'
-
-print "Cleaning up..."
-
-shutil.rmtree(JSON_FOLDER)
-os.mkdir(JSON_FOLDER)
+JSON_FOLDER = 'dist/json'
+YAML_FILE = 'src/quotes.yaml'
+HTML_FILE = 'src/index.html'
 
 print "Loading..."
 
@@ -31,7 +26,7 @@ for i, q in enumerate(data):
 
 print "Fix index.html..."
 
-for linenum, line in enumerate(fileinput.FileInput("index.html", inplace=1)):
+for linenum, line in enumerate(fileinput.FileInput(HTML_FILE, inplace=1)):
     pattern_app = re.compile(r"(app\.js\?ts=)\d+")
     pattern_style = re.compile(r"(style\.css\?ts=)\d+")
     pattern_length = re.compile(r"(var\sLENGTH\s=\s)\d+")
