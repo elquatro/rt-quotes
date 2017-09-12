@@ -4,7 +4,7 @@ python:
   - "2.7"
 
 install:
-  - make
+  - make travis_install
 
 script: pytest
 
