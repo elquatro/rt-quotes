@@ -8,9 +8,9 @@ import fileinput
 import time
 import re
 
-JSON_FOLDER = 'dist/json'
-YAML_FILE = 'src/quotes.yaml'
-HTML_FILE = 'src/index.html'
+JSON_FOLDER = "dist/json"
+YAML_FILE = "src/quotes.yaml"
+HTML_FILE = "dist/index.html"
 
 print "Loading..."
 
@@ -30,8 +30,8 @@ for linenum, line in enumerate(fileinput.FileInput(HTML_FILE, inplace=1)):
     pattern_app = re.compile(r"(app\.js\?ts=)\d+")
     pattern_style = re.compile(r"(style\.css\?ts=)\d+")
     pattern_length = re.compile(r"(var\sLENGTH\s=\s)\d+")
-    replace = "\g<1>%d" % int(time.time())
-    replace_length = "\g<1>%d" % len(data)
+    replace = r"\g<1>%d" % int(time.time())
+    replace_length = r"\g<1>%d" % len(data)
     if "app.js?ts=" in line:
         print re.sub(pattern_app, replace, line).rstrip()
     elif "style.css?ts=" in line:

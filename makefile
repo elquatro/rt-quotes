@@ -9,22 +9,22 @@ deps:
 travis_install:
 	pip install -r requirements
 	mkdir -p dist/json
+	cp src/index.html dist/
 	bin/gen
 	cp -r src/img dist/img
 	cp -r src/vendor/* dist/
 	cp src/app.js dist/
-	cp src/index.html dist/
 	cp src/style.css dist/
 	cp src/favicon.png dist/
 
 gen:
 	rm -rf dist/
 	mkdir -p dist/json
+	cp src/index.html dist/
 	source .venv/bin/activate; bin/gen
 	cp -r src/img dist/img
 	cp -r src/vendor/* dist/
 	cp src/app.js dist/
-	cp src/index.html dist/
 	cp src/style.css dist/
 	cp src/favicon.png dist/
 
