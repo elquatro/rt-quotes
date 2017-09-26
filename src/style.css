@@ -76,7 +76,7 @@
     background-color: #fff;
     border: 1px solid #ccc;
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 10px 30px 13px 30px;
     border-radius: 3px;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
     font-family: 'PT Serif';
