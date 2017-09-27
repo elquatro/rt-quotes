@@ -10,7 +10,7 @@ travis_install:
 	pip install -r requirements
 	mkdir -p dist/json
 	cp src/index.html dist/
-	bin/gen
+	./gen
 	cp -r src/img dist/img
 	cp -r src/vendor/* dist/
 	cp src/app.js dist/
@@ -21,7 +21,7 @@ gen:
 	rm -rf dist/
 	mkdir -p dist/json
 	cp src/index.html dist/
-	source .venv/bin/activate; bin/gen
+	source .venv/bin/activate; ./gen
 	cp -r src/img dist/img
 	cp -r src/vendor/* dist/
 	cp src/app.js dist/
@@ -30,3 +30,5 @@ gen:
 
 dev:
 	devd dist
+
+.PHONY: gen
