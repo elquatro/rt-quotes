@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
 
 import yaml
 import json
@@ -12,19 +11,19 @@ JSON_FOLDER = "dist/json"
 YAML_FILE = "src/quotes.yaml"
 HTML_FILE = "dist/index.html"
 
-print "Loading..."
+print("Loading...")
 
 with open(YAML_FILE) as f:
     data = yaml.safe_load(f)
 
-print "Generating JSON..."
+print("Generating JSON...")
 
 for i, q in enumerate(data):
     filename = "%s/%s.json" % (JSON_FOLDER, str(i).zfill(5))
     with open(filename, 'w') as f:
-        f.write(json.dumps(q, ensure_ascii=False).encode('utf-8'))
+        f.write(json.dumps(q, ensure_ascii=False))
 
-print "Fix index.html..."
+print("Fix index.html...")
 
 for linenum, line in enumerate(fileinput.FileInput(HTML_FILE, inplace=1)):
     pattern_app = re.compile(r"(app\.js\?ts=)\d+")
@@ -33,15 +32,15 @@ for linenum, line in enumerate(fileinput.FileInput(HTML_FILE, inplace=1)):
     replace = r"\g<1>%d" % int(time.time())
     replace_length = r"\g<1>%d" % len(data)
     if "app.js?ts=" in line:
-        print re.sub(pattern_app, replace, line).rstrip()
+        print(re.sub(pattern_app, replace, line).rstrip())
     elif "style.css?ts=" in line:
-        print re.sub(pattern_style, replace, line).rstrip()
+        print(re.sub(pattern_style, replace, line).rstrip())
     elif "var LENGTH =" in line:
-        print re.sub(pattern_length, replace_length, line).rstrip()
+        print(re.sub(pattern_length, replace_length, line).rstrip())
     else:
-        print line.rstrip()
+        print(line.rstrip())
 
 
-print "-------------------"
-print "TOTAL QUOTES: %d" % len(data)
-print "Done."
+print("-------------------")
+print("TOTAL QUOTES: %d" % len(data))
+print("Done.")

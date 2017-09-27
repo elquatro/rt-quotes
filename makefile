@@ -1,7 +1,7 @@
 all: venv deps gen
 
 venv:
-	if [ ! -d .venv ]; then virtualenv .venv; fi
+	if [ ! -d .venv ]; then virtualenv -p python3 .venv; fi
 
 deps:
 	source .venv/bin/activate; pip install -r requirements
