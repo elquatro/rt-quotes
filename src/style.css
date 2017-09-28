@@ -21,17 +21,18 @@
 #quote header {
     padding: 20px 20px;
     overflow: hidden;
-    background-color: #eee;
+    background-color: none;
     font-family: Helvetica, sans-serif;
 }
 
 .author {
     float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     padding-left: 75px;
     background-position: left center;
     background-repeat: no-repeat;
+    clear: both;
 }
 
 .author.bobuk {
@@ -61,9 +62,11 @@
 }
 
 .release {
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    float: left;
+    font-size: 0.6em;
+    clear: both;
+    margin-top: -25px;
+    padding-left: 75px;
 }
 
 .more {
