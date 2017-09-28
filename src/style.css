@@ -133,9 +133,7 @@ footer {
     }
 
     .release {
-        padding-top: 10px;
-        padding-bottom: 0px;
-        text-align: center;
+        font-size: 0.8em;
     }
 
     footer { display: none; }
