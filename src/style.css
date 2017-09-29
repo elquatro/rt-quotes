@@ -1,8 +1,20 @@
 * { margin: 0; padding: 0;}
 
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
 #quote, #loading {
     width: 640px;
-    margin: 20px auto;
+    margin: 0px auto 20px auto;
     font-size: 1.4em;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
@@ -107,14 +119,17 @@ footer {
     font-size: 1em;
     width: 100%;
     text-align: center;
-    position: absolute;
-    bottom: 10px;
+}
+
+footer {
+    height: 40px;
+    margin-top: -40px;
 }
 
 @media (max-width: 655px) {
 
     body {
-        padding: 20px 15px;
+        padding: 0px 15px;
     }
 
     #quote, #loading {
