@@ -83,6 +83,15 @@ function renderQuote(data) {
     quote.find('.text')
         .text(data.text);
 
+    if (data.ctx) {
+        quote.find('.ctx')
+            .text(data.ctx)
+            .removeClass('hidden');
+    } else {
+        quote.find('.ctx')
+            .addClass('hidden');
+    }
+
     clearTimeout(loadingTimer);
 
     loading.hide();
