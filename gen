@@ -20,6 +20,12 @@ print("Generating JSON...")
 
 for i, q in enumerate(data):
     filename = "%s/%s.json" % (JSON_FOLDER, str(i).zfill(5))
+
+    if 'text' in q:
+        q['text'] = q['text'].rstrip()
+    if 'ctx' in q:
+        q['ctx'] = q['ctx'].rstrip()
+
     with open(filename, 'w') as f:
         f.write(json.dumps(q, ensure_ascii=False))
 
