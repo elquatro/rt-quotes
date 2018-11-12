@@ -1,0 +1,166 @@
+* { margin: 0; padding: 0;}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+#quote, #loading {
+    width: 640px;
+    margin: 0px auto 20px auto;
+    font-size: 1.4em;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#quote {
+    display: none;
+}
+
+#loading>div {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#quote header {
+    padding: 20px 20px;
+    overflow: hidden;
+    background-color: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.author {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+.author.bobuk {
+    background-image: url('img/bobuk.png');
+}
+
+.author.umputun {
+    background-image: url('img/umputun.png');
+}
+
+.author.gray {
+    background-image: url('img/gray.png');
+}
+
+.author.ypp {
+    background-image: url('img/ypp.png');
+}
+
+.author.ksenks {
+    background-image: url('img/ksenks.png')
+}
+
+.text-style {
+    line-height: 1.4em;
+    padding: 20px;
+    font-family: 'PT Serif';
+}
+
+.ctx {
+    font-size: 0.7em;
+    background-color: #F5F5EA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.release {
+    float: left;
+    font-size: 0.6em;
+    clear: both;
+    margin-top: -25px;
+    padding-left: 75px;
+}
+
+.more {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.more span {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px 30px 13px 30px;
+    border-radius: 3px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'PT Serif';
+}
+
+.more span:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 8px 8px -5px rgba(0, 0, 0, 0.2);
+    border-color: #999;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.more span.disabled {
+    cursor: default;
+    border: 1px solid #eee;
+    color: #eee;
+    box-shadow: none;
+}
+
+a[href] {
+    color: #53AAFF;
+}
+
+footer {
+    color: #999;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    height: 40px;
+    margin-top: -40px;
+}
+
+@media (max-width: 655px) {
+
+    body {
+        padding: 0px 15px;
+    }
+
+    #quote, #loading {
+        width: 100%;
+        font-size: 1em;
+        margin: 0 auto 20px auto;
+    }
+
+    .author, .release {
+        display: block;
+        float: none;
+    }
+
+    .author {
+        font-size: 1.4em;
+    }
+
+    .release {
+        font-size: 0.8em;
+    }
+
+    footer { display: none; }
+}
